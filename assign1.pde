@@ -6,12 +6,12 @@ float launchOffset = 25;
 void setup() {
 	size(640, 480);
   // loadImage
-  bgImg = loadImage("IMG/bg.jpg");
-  groundhogImg = loadImage("IMG/groundhog.png");
-  lifeImg = loadImage("IMG/life.png");
-  robotImg = loadImage("IMG/robot.png");
-  soilImg = loadImage("IMG/soil.png");
-  soldierImg = loadImage("IMG/soldier.png");
+  bgImg = loadImage("img/bg.jpg");
+  groundhogImg = loadImage("img/groundhog.png");
+  lifeImg = loadImage("img/life.png");
+  robotImg = loadImage("img/robot.png");
+  soilImg = loadImage("img/soil.png");
+  soldierImg = loadImage("img/soldier.png");
   
   // soldier layer and
   soldierLayer = int(random(0,4));
