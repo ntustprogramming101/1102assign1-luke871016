@@ -4,7 +4,7 @@ PVector soldierPosition,robotPosition;
 float laserBegin,laserEnd,laserOffset,laserLength = 20;
 float launchOffset = 25;
 void setup() {
-	size(640, 480, P2D);
+	size(640, 480);
   // loadImage
   bgImg = loadImage("IMG/bg.jpg");
   groundhogImg = loadImage("IMG/groundhog.png");
@@ -73,6 +73,5 @@ void draw() {
     laserBegin = robotPosition.x + launchOffset - laserOffset + laserLength;
     laserEnd = laserBegin - laserLength;
   }
-  println(laserBegin);
   line(laserBegin,robotPosition.y + 40,laserEnd,robotPosition.y + 40);
 }
