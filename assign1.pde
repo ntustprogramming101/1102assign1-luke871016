@@ -1,7 +1,7 @@
 PImage bgImg,groundhogImg,lifeImg,robotImg,soilImg,soldierImg;
 int soldierLayer,robotLayer;
 PVector soldierPosition,robotPosition;
-float laserBegin,laserEnd,laserOffset,laserLength = 20;
+float laserBegin,laserEnd,laserOffset,laserLength = 30;
 float launchOffset = 25;
 void setup() {
 	size(640, 480);
